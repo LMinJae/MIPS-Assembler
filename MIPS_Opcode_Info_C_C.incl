@@ -1,0 +1,88 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='.',	// c.
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='e',	// c.e
+		.value=NULL,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='.',	// c.eq
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='.',	// c.eq.
+				.value=NULL,
+				.left=&(_MIPS_Opcode_Info_Node_t){
+					.key='s',	// c.eq.s
+					.value=
+						#include "MIPS_Opcode_Info_V_C.EQ.S.incl"
+					,
+					.left=NULL,
+					.right=&(_MIPS_Opcode_Info_Node_t){
+						.key='d',	// c.eq.d
+						.value=
+							#include "MIPS_Opcode_Info_V_C.EQ.D.incl"
+						,
+						.left=NULL,
+						.right=NULL
+					}
+				},
+				.right=NULL
+			},
+			.right=NULL
+		},
+		.right=&(_MIPS_Opcode_Info_Node_t){
+			.key='l',	// c.l
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='e',	// c.le
+				.value=NULL,
+				.left=&(_MIPS_Opcode_Info_Node_t){
+					.key='.',	// c.le.
+					.value=NULL,
+					.left=&(_MIPS_Opcode_Info_Node_t){
+						.key='s',	// c.le.s
+						.value=
+							#include "MIPS_Opcode_Info_V_C.LE.S.incl"
+						,
+						.left=NULL,
+						.right=&(_MIPS_Opcode_Info_Node_t){
+							.key='d',	// c.le.d
+							.value=
+								#include "MIPS_Opcode_Info_V_C.LE.D.incl"
+							,
+							.left=NULL,
+							.right=NULL
+						}
+					},
+					.right=NULL
+				},
+				.right=&(_MIPS_Opcode_Info_Node_t){
+					.key='t',	// c.lt
+					.value=NULL,
+					.left=&(_MIPS_Opcode_Info_Node_t){
+						.key='.',	// c.lt.
+						.value=NULL,
+						.left=&(_MIPS_Opcode_Info_Node_t){
+							.key='s',	// c.lt.s
+							.value=
+								#include "MIPS_Opcode_Info_V_C.LT.S.incl"
+							,
+							.left=NULL,
+							.right=&(_MIPS_Opcode_Info_Node_t){
+								.key='d',	// c.lt.d
+								.value=
+									#include "MIPS_Opcode_Info_V_C.LT.D.incl"
+								,
+								.left=NULL,
+								.right=NULL
+							}
+						},
+						.right=NULL
+					},
+					.right=NULL
+				}
+			},
+			.right=NULL
+		}
+	},
+	.right=NULL
+}

@@ -1,0 +1,20 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='a',	// ja
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='l',	// jal
+		.value=
+			#include "MIPS_Opcode_Info_V_jal.incl"
+		,
+		.left=NULL,
+		.right=NULL
+	},
+	.right=&(_MIPS_Opcode_Info_Node_t){
+		.key='r',	// jr
+		.value=
+			#include "MIPS_Opcode_Info_V_jr.incl"
+		,
+		.left=NULL,
+		.right=NULL
+	}
+}

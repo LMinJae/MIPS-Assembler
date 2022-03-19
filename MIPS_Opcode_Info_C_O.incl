@@ -1,0 +1,16 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='r',	// or
+	.value=
+		#include "MIPS_Opcode_Info_V_OR.incl"
+	,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='i',	// ori
+		.value=
+			#include "MIPS_Opcode_Info_V_ORI.incl"
+		,
+		.left=NULL,
+		.right=NULL
+	}
+,
+	.right=NULL
+}

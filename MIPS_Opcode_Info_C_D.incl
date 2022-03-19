@@ -1,0 +1,41 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='i',	// di
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='v',	// div
+		.value=
+			#include "MIPS_Opcode_Info_V_DIV.incl"
+		,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='u',	// divu
+			.value=
+				#include "MIPS_Opcode_Info_V_DIVU.incl"
+			,
+			.left=NULL,
+			.right=&(_MIPS_Opcode_Info_Node_t){
+				.key='.',	// div.
+				.value=NULL,
+				.left=&(_MIPS_Opcode_Info_Node_t){
+					.key='s',	// div.s
+					.value=
+						#include "MIPS_Opcode_Info_V_DIV.S.incl"
+					,
+					.left=NULL,
+					.right=&(_MIPS_Opcode_Info_Node_t){
+						.key='d',	// div.d
+						.value=
+							#include "MIPS_Opcode_Info_V_DIV.D.incl"
+						,
+						.left=NULL,
+						.right=NULL
+					}
+				},
+				.right=NULL
+			}
+
+		},
+		.right=NULL
+	}
+,
+	.right=NULL
+}

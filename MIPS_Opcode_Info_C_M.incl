@@ -1,0 +1,85 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='f',	// mf
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='c',	// mfc
+		.value=NULL,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='0',	// mfc0
+			.value=
+				#include "MIPS_Opcode_Info_V_MFC0.incl"
+			,
+			.left=NULL,
+			.right=NULL
+		},
+		.right=&(_MIPS_Opcode_Info_Node_t){
+			.key='h',	// mfh
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='i',	// mfhi
+				.value=
+					#include "MIPS_Opcode_Info_V_MFHI.incl"
+				,
+				.left=NULL,
+				.right=NULL
+			},
+			.right=&(_MIPS_Opcode_Info_Node_t){
+				.key='l',	// mfl
+				.value=NULL,
+				.left=&(_MIPS_Opcode_Info_Node_t){
+					.key='o',	// mflo
+					.value=
+						#include "MIPS_Opcode_Info_V_MFLO.incl"
+					,
+					.left=NULL,
+					.right=NULL
+				},
+				.right=NULL
+			}
+		}
+	},
+	.right=&(_MIPS_Opcode_Info_Node_t){
+		.key='u',	// mu
+		.value=NULL,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='l',	// mul
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='t',	// mult
+				.value=
+					#include "MIPS_Opcode_Info_V_MULT.incl"
+				,
+				.left=&(_MIPS_Opcode_Info_Node_t){
+					.key='u',	// multu
+					.value=
+						#include "MIPS_Opcode_Info_V_MULTU.incl"
+					,
+					.left=NULL,
+					.right=NULL
+				},
+				.right=&(_MIPS_Opcode_Info_Node_t){
+					.key='.',	// mul.
+					.value=NULL,
+					.left=&(_MIPS_Opcode_Info_Node_t){
+						.key='s',	// mul.s
+						.value=
+							#include "MIPS_Opcode_Info_V_MUL.S.incl"
+						,
+						.left=NULL,
+						.right=NULL
+					},
+					.right=&(_MIPS_Opcode_Info_Node_t){
+						.key='d',	// mul.d
+						.value=
+							#include "MIPS_Opcode_Info_V_MUL.D.incl"
+						,
+						.left=NULL,
+						.right=NULL
+					}
+				},
+			},
+			.right=NULL
+		},
+		.right=NULL
+	}
+}

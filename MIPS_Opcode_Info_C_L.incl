@@ -1,0 +1,80 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='b',	// lb
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='u',	// lbu
+		.value=
+			#include "MIPS_Opcode_Info_V_LBU.incl"
+		,
+		.left=NULL,
+		.right=NULL
+	},
+	.right=&(_MIPS_Opcode_Info_Node_t){
+		.key='d',	// ld
+		.value=NULL,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='d',	// ldc
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='l',	// ldcl
+				.value=
+					#include "MIPS_Opcode_Info_V_LDCL.incl"
+				,
+				.left=NULL,
+				.right=NULL
+			},
+			.right=NULL
+		},
+		.right=&(_MIPS_Opcode_Info_Node_t){
+			.key='h',	// lh
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='u',	// lhu
+				.value=
+					#include "MIPS_Opcode_Info_V_LHU.incl"
+				,
+				.left=NULL,
+				.right=NULL
+			},
+			.right=&(_MIPS_Opcode_Info_Node_t){
+				.key='l',	// ll
+				.value=
+					#include "MIPS_Opcode_Info_V_LL.incl"
+				,
+				.left=NULL,
+				.right=&(_MIPS_Opcode_Info_Node_t){
+					.key='u',	// lu
+					.value=NULL,
+					.left=&(_MIPS_Opcode_Info_Node_t){
+						.key='i',	// lui
+						.value=
+							#include "MIPS_Opcode_Info_V_LUI.incl"
+						,
+						.left=NULL,
+						.right=NULL
+					},
+					.right=&(_MIPS_Opcode_Info_Node_t){
+						.key='w',	// lw
+						.value=
+							#include "MIPS_Opcode_Info_V_LW.incl"
+						,
+						.left=&(_MIPS_Opcode_Info_Node_t){
+							.key='c',	// lwc
+							.value=NULL,
+							.left=&(_MIPS_Opcode_Info_Node_t){
+								.key='l',	// lwcl
+								.value=
+									#include "MIPS_Opcode_Info_V_LWCL.incl"
+								,
+								.left=NULL,
+								.right=NULL
+							},
+							.right=NULL
+						},
+						.right=NULL
+					}
+				}
+			}
+		}
+	}
+}

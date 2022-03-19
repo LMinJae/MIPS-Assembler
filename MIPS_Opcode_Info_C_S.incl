@@ -1,0 +1,155 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='b',	// sb
+	.value=
+		#include "MIPS_Opcode_Info_V_SB.incl"
+	,
+	.left=NULL,
+	.right=&(_MIPS_Opcode_Info_Node_t){
+		.key='c',	// sc
+		.value=
+			#include "MIPS_Opcode_Info_V_SC.incl"
+		,
+		.left=NULL,
+		.right=&(_MIPS_Opcode_Info_Node_t){
+			.key='d',	// sd
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='c',	// sdc
+				.value=NULL,
+				.left=&(_MIPS_Opcode_Info_Node_t){
+					.key='l',	// sdcl
+					.value=
+						#include "MIPS_Opcode_Info_V_SDCL.incl"
+					,
+					.left=NULL,
+					.right=NULL
+					},
+				.right=NULL
+			},
+			.right=&(_MIPS_Opcode_Info_Node_t){
+				.key='h',	// sh
+				.value=
+					#include "MIPS_Opcode_Info_V_SH.incl"
+				,
+				.left=NULL,
+				.right=&(_MIPS_Opcode_Info_Node_t){
+					.key='l',	// sl
+					.value=NULL,
+					.left=&(_MIPS_Opcode_Info_Node_t){
+						.key='l',	// sll
+						.value=
+							#include "MIPS_Opcode_Info_V_SLL.incl"
+						,
+						.left=NULL,
+						.right=&(_MIPS_Opcode_Info_Node_t){
+							.key='t',	// slt
+							.value=
+								#include "MIPS_Opcode_Info_V_SLT.incl"
+							,
+							.left=&(_MIPS_Opcode_Info_Node_t){
+								.key='i',	// slti
+								.value=
+									#include "MIPS_Opcode_Info_V_SLTI.incl"
+								,
+								.left=&(_MIPS_Opcode_Info_Node_t){
+									.key='u',	// sltiu
+									.value=
+										#include "MIPS_Opcode_Info_V_SLTIU.incl"
+									,
+									.left=NULL,
+									.right=NULL
+								},
+								.right=&(_MIPS_Opcode_Info_Node_t){
+									.key='u',	// sltu
+									.value=
+										#include "MIPS_Opcode_Info_V_SLTU.incl"
+									,
+									.left=NULL,
+									.right=NULL
+								}
+							},
+							.right=NULL
+						}
+					},
+					.right=&(_MIPS_Opcode_Info_Node_t){
+						.key='r',	// sr
+						.value=NULL,
+						.left=&(_MIPS_Opcode_Info_Node_t){
+							.key='a',	// sra
+							.value=
+								#include "MIPS_Opcode_Info_V_SRA.incl"
+							,
+							.left=NULL,
+							.right=&(_MIPS_Opcode_Info_Node_t){
+								.key='l',	// srl
+								.value=
+									#include "MIPS_Opcode_Info_V_SRL.incl"
+								,
+								.left=NULL,
+								.right=NULL
+							}
+						},
+						.right=&(_MIPS_Opcode_Info_Node_t){
+							.key='u',	// su
+							.value=NULL,
+							.left=&(_MIPS_Opcode_Info_Node_t){
+								.key='b',	// sub
+								.value=
+									#include "MIPS_Opcode_Info_V_SUB.incl"
+								,
+								.left=&(_MIPS_Opcode_Info_Node_t){
+									.key='u',	// subu
+									.value=
+										#include "MIPS_Opcode_Info_V_SUBU.incl"
+									,
+									.left=NULL,
+									.right=&(_MIPS_Opcode_Info_Node_t){
+										.key='.',	// sub.
+										.value=NULL,
+										.left=&(_MIPS_Opcode_Info_Node_t){
+											.key='s',	// sub.s
+											.value=
+												#include "MIPS_Opcode_Info_V_SUB.S.incl"
+											,
+											.left=NULL,
+											.right=&(_MIPS_Opcode_Info_Node_t){
+												.key='d',	// sub.d
+												.value=
+													#include "MIPS_Opcode_Info_V_SUB.D.incl"
+												,
+												.left=NULL,
+												.right=NULL
+											}
+										},
+										.right=NULL
+									}
+								},
+								.right=NULL
+							},
+							.right=&(_MIPS_Opcode_Info_Node_t){
+								.key='w',	// sw
+								.value=
+									#include "MIPS_Opcode_Info_V_SW.incl"
+								,
+								.left=&(_MIPS_Opcode_Info_Node_t){
+									.key='c',	// swc
+									.value=NULL,
+									.left=&(_MIPS_Opcode_Info_Node_t){
+										.key='l',	// swcl
+										.value=
+											#include "MIPS_Opcode_Info_V_SWCL.incl"
+										,
+										.left=NULL,
+										.right=NULL
+									},
+									.right=NULL
+								},
+								.right=NULL
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

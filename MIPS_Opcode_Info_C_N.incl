@@ -1,0 +1,13 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='o',	// no
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='r',	// nor
+		.value=
+			#include "MIPS_Opcode_Info_V_NOR.incl"
+		,
+		.left=NULL,
+		.right=NULL
+	},
+	.right=NULL
+}

@@ -1,0 +1,6 @@
+&(_MIPS_Opcode_Info_t){
+	.argflag=(
+		_MIPS_ARGFLAG_TYPE_REGISTER << _MIPS_ARGFLAG_SHIFTER_1ST
+	),
+	.mapper=&MIPS_Mapper_J
+}

@@ -1,0 +1,53 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='d',	// ad
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='d',	// add
+		.value=
+			#include "MIPS_Opcode_Info_V_ADD.incl"
+		,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='i',	// addi
+			.value=
+				#include "MIPS_Opcode_Info_V_ADDI.incl"
+			,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='u',	// addiu
+				.value=
+					#include "MIPS_Opcode_Info_V_ADDIU.incl"
+				,
+				.left=NULL,
+				.right=NULL
+			},
+			.right=&(_MIPS_Opcode_Info_Node_t){
+				.key='u',	// addu
+				.value=
+					#include "MIPS_Opcode_Info_V_ADDU.incl"
+				,
+				.left=NULL,
+				.right=NULL
+			}
+		},
+		.right=NULL
+	},
+	.right=&(_MIPS_Opcode_Info_Node_t){
+		.key='n',	// an
+		.value=NULL,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='d',	// and
+			.value=
+				#include "MIPS_Opcode_Info_V_AND.incl"
+			,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='i',	// andi
+				.value=
+					#include "MIPS_Opcode_Info_V_ANDI.incl"
+				,
+				.left=NULL,
+				.right=NULL
+			},
+			.right=NULL
+		},
+		.right=NULL
+	}
+}

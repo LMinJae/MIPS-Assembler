@@ -1,0 +1,42 @@
+&(_MIPS_Opcode_Info_Node_t){
+	.key='c',	// bc
+	.value=NULL,
+	.left=&(_MIPS_Opcode_Info_Node_t){
+		.key='l',	// bcl
+		.value=NULL,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='t',	// bclt
+			.value=
+				#include "MIPS_Opcode_Info_V_BCLT.incl"
+			,
+			.left=NULL,
+			.right=NULL
+		}
+	},
+		.right=NULL,
+	.right=&(_MIPS_Opcode_Info_Node_t){
+		.key='e',	// be
+		.value=NULL,
+		.left=&(_MIPS_Opcode_Info_Node_t){
+			.key='q',	// beq
+			.value=
+				#include "MIPS_Opcode_Info_V_BEQ.incl"
+			,
+			.left=NULL,
+			.right=NULL
+		},
+		.right=&(_MIPS_Opcode_Info_Node_t){
+			.key='n',	// bn
+			.value=NULL,
+			.left=&(_MIPS_Opcode_Info_Node_t){
+				.key='e',	// bne
+				.value=
+					#include "MIPS_Opcode_Info_V_BNE.incl"
+				,
+				.left=NULL,
+				.right=NULL
+			},
+			.right=NULL
+		}
+	}
+}
